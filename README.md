@@ -45,14 +45,18 @@ Program:
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: DINESH KUMAR R
 RegisterNumber:212222110010
+
 ### HALF ADDER
+
 module exp03(A,B,c,s);
 input A,B;
 output s,c;
 assign s=A^B;
 assign c=A&B;
 endmodule
+
 ### FULL ADDER
+
 module exp03(A,B,c,sum,carry);
 input A,B,c;
 output sum,carry;
